@@ -11,14 +11,11 @@ use any Machine Learning library.
 3. spark 2.2+
 
 ### Running
-
+```
 spark-submit --master local[2] --class com.phdata.ddos.LogMonitor
-
-
-
+```
 
 ### Building
----
 ```
  sbt compile assembly
 
